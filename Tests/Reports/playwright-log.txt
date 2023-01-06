@@ -1,0 +1,136 @@
+Debugger listening on ws://127.0.0.1:54384/5fdb57fc-590e-4ca1-b98f-23df59a2c73b
+For help, see: https://nodejs.org/en/docs/inspector
+Debugger attached.
+{"level":30,"time":"2023-01-05T15:41:45.379Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Listening on 54381"}
+{"level":30,"time":"2023-01-05T15:41:45.388Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:45.388Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:45.389Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:45.389Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:45.391Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-01-05T15:41:45.391Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2023-01-05T15:41:45.515Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active context"}
+{"level":30,"time":"2023-01-05T15:41:45.649Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Video path: undefined"}
+{"level":30,"time":"2023-01-05T15:41:45.649Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active page"}
+{"level":30,"time":"2023-01-05T15:41:46.849Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method newPage"}
+{"level":30,"time":"2023-01-05T15:41:46.853Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:46.853Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:46.884Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:46.885Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:46.886Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:47.039Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:47.041Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:47.193Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:47.195Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:47.195Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:47.210Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:47.212Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:47.212Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:47.505Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:47.507Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:47.507Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:47.972Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:47.974Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:48.084Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:48.085Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:48.085Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:48.435Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:48.437Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:48.437Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:49.215Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:49.216Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:49.291Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:49.293Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:49.293Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:49.859Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:49.863Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:49.863Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:49.994Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:49.996Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:49.996Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:50.025Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:50.026Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:50.089Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:50.090Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:50.090Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:50.093Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:50.094Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:50.094Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:50.283Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:50.285Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:50.286Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Cafeteira Espresso Super Automática, Philips Walita, 220V'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:50.793Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:50.795Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:50.924Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:50.926Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:50.926Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Cafeteira Espresso Super Automática, Philips Walita, 220V'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:51.317Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:51.319Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:51.319Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:51.920Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:51.924Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:52.050Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:52.052Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:52.052Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:52.448Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:52.450Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:52.450Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:52.592Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:52.594Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:52.594Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=twotabsearchtextbox in page."}
+{"level":30,"time":"2023-01-05T15:41:52.629Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method typeText"}
+{"level":30,"time":"2023-01-05T15:41:52.630Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:52.705Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:52.707Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:52.707Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:52.710Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:52.711Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:52.711Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-search-submit-button in page."}
+{"level":30,"time":"2023-01-05T15:41:52.898Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:52.900Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:52.900Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:53.523Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:53.525Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:53.608Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:53.609Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:53.609Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with xpath=//a[.//text()='Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt'][1] in page."}
+{"level":30,"time":"2023-01-05T15:41:54.051Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:54.052Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:54.052Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:54.899Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-01-05T15:41:54.901Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:55.008Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-01-05T15:41:55.010Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:55.010Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=add-to-cart-button in page."}
+{"level":30,"time":"2023-01-05T15:41:55.493Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:55.495Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-01-05T15:41:55.495Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=nav-cart in page."}
+{"level":30,"time":"2023-01-05T15:41:55.935Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method click"}
+{"level":30,"time":"2023-01-05T15:41:55.939Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getText"}
+{"level":30,"time":"2023-01-05T15:41:55.939Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Strict mode is enabled, find Locator with id=sc-subtotal-label-buybox in page."}
+{"level":30,"time":"2023-01-05T15:41:56.482Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Retrieved text for element id=sc-subtotal-label-buybox containing Subtotal (3 itens):"}
+{"level":30,"time":"2023-01-05T15:41:56.482Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getText"}
+{"level":30,"time":"2023-01-05T15:41:56.483Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.484Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.484Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.485Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.486Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active context"}
+{"level":30,"time":"2023-01-05T15:41:56.486Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changing current active page"}
+{"level":30,"time":"2023-01-05T15:41:56.486Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active page"}
+{"level":30,"time":"2023-01-05T15:41:56.487Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.488Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.489Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-01-05T15:41:56.489Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-01-05T15:41:56.489Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-01-05T15:41:56.489Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-01-05T15:41:56.490Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.491Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.492Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active context"}
+{"level":30,"time":"2023-01-05T15:41:56.492Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changing current active page"}
+{"level":30,"time":"2023-01-05T15:41:56.492Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Changed active page"}
+{"level":30,"time":"2023-01-05T15:41:56.492Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-01-05T15:41:56.494Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Removed page=9d20aa6a-4278-4396-a60e-4ea3295a52e4 from context=e8ce1227-35bf-4e48-8cdd-40debc4a56cb page stack"}
+{"level":30,"time":"2023-01-05T15:41:56.495Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-01-05T15:41:56.497Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.497Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T15:41:56.509Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-01-05T15:41:56.520Z","pid":27240,"hostname":"johnnys-Mac-mini.local","msg":"End of node method closeAllBrowsers"}

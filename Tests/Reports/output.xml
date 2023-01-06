@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.9 on darwin)" generated="20230105 12:41:44.881" rpa="false" schemaversion="3">
+<suite id="s1" name="AdicionaProdutosNoCarrinho" source="/Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon/Tests/AdicionaProdutosNoCarrinho.robot">
+<test id="s1-t1" name="Adiciona 3 itens no carrinho e verifica no checkout" line="6">
+<kw name="Acessa pagina" library="PaginaPrincipal">
+<kw name="New Page" library="Browser">
+<arg>${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20230105 12:41:46.851" level="INFO">Successfully initialized new page object and opened url: https://www.amazon.com.br/</msg>
+<msg timestamp="20230105 12:41:46.851" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<status status="PASS" starttime="20230105 12:41:45.391" endtime="20230105 12:41:46.851"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:45.390" endtime="20230105 12:41:46.851"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${itemRetornadoDaBusca}</var>
+<arg>xpath=//a[.//text()='${nomeDoProduto}'][1]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230105 12:41:46.852" level="INFO">${itemRetornadoDaBusca} = xpath=//a[.//text()='Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK'][1]</msg>
+<status status="PASS" starttime="20230105 12:41:46.852" endtime="20230105 12:41:46.852"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${campoBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:46.885" level="INFO">Waited for Element with selector id=twotabsearchtextbox at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:46.852" endtime="20230105 12:41:46.885"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>${campoBusca}</arg>
+<arg>${nomeDoProduto}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230105 12:41:46.885" level="INFO">Types the text 'Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK' in the given field.</msg>
+<status status="PASS" starttime="20230105 12:41:46.885" endtime="20230105 12:41:47.040"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:47.195" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:47.041" endtime="20230105 12:41:47.195"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:47.211" level="INFO">Waited for Element with selector id=nav-search-submit-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:47.195" endtime="20230105 12:41:47.211"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:47.212" endtime="20230105 12:41:47.507"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:47.973" level="INFO">Waited for Element with selector xpath=//a[.//text()='Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK'][1] at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:47.507" endtime="20230105 12:41:47.973"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:48.085" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:47.974" endtime="20230105 12:41:48.085"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:48.085" endtime="20230105 12:41:48.436"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:49.216" level="INFO">Waited for Element with selector id=add-to-cart-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:48.436" endtime="20230105 12:41:49.216"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:49.292" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-3.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:49.216" endtime="20230105 12:41:49.292"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:46.851" endtime="20230105 12:41:49.293"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<kw name="Click" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:49.293" endtime="20230105 12:41:49.860"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:49.293" endtime="20230105 12:41:49.861"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Cafeteira Espresso Super Automática, Philips Walita, 220V&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${itemRetornadoDaBusca}</var>
+<arg>xpath=//a[.//text()='${nomeDoProduto}'][1]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230105 12:41:49.862" level="INFO">${itemRetornadoDaBusca} = xpath=//a[.//text()='Cafeteira Espresso Super Automática, Philips Walita, 220V'][1]</msg>
+<status status="PASS" starttime="20230105 12:41:49.861" endtime="20230105 12:41:49.862"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${campoBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:49.995" level="INFO">Waited for Element with selector id=twotabsearchtextbox at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:49.862" endtime="20230105 12:41:49.995"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>${campoBusca}</arg>
+<arg>${nomeDoProduto}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230105 12:41:49.996" level="INFO">Types the text 'Cafeteira Espresso Super Automática, Philips Walita, 220V' in the given field.</msg>
+<status status="PASS" starttime="20230105 12:41:49.996" endtime="20230105 12:41:50.026"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:50.090" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-4.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:50.026" endtime="20230105 12:41:50.090"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:50.093" level="INFO">Waited for Element with selector id=nav-search-submit-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:50.090" endtime="20230105 12:41:50.093"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:50.094" endtime="20230105 12:41:50.285"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:50.794" level="INFO">Waited for Element with selector xpath=//a[.//text()='Cafeteira Espresso Super Automática, Philips Walita, 220V'][1] at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:50.285" endtime="20230105 12:41:50.794"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:50.925" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-5.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:50.794" endtime="20230105 12:41:50.925"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:50.925" endtime="20230105 12:41:51.318"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:51.922" level="INFO">Waited for Element with selector id=add-to-cart-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:51.318" endtime="20230105 12:41:51.922"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:52.052" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-6.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:51.923" endtime="20230105 12:41:52.052"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:49.861" endtime="20230105 12:41:52.052"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<kw name="Click" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:52.052" endtime="20230105 12:41:52.449"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:52.052" endtime="20230105 12:41:52.449"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${itemRetornadoDaBusca}</var>
+<arg>xpath=//a[.//text()='${nomeDoProduto}'][1]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230105 12:41:52.450" level="INFO">${itemRetornadoDaBusca} = xpath=//a[.//text()='Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt'][1]</msg>
+<status status="PASS" starttime="20230105 12:41:52.450" endtime="20230105 12:41:52.450"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${campoBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:52.593" level="INFO">Waited for Element with selector id=twotabsearchtextbox at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:52.450" endtime="20230105 12:41:52.593"/>
+</kw>
+<kw name="Type Text" library="Browser">
+<arg>${campoBusca}</arg>
+<arg>${nomeDoProduto}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20230105 12:41:52.594" level="INFO">Types the text 'Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt' in the given field.</msg>
+<status status="PASS" starttime="20230105 12:41:52.594" endtime="20230105 12:41:52.630"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:52.706" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-7.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:52.630" endtime="20230105 12:41:52.706"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:52.710" level="INFO">Waited for Element with selector id=nav-search-submit-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:52.707" endtime="20230105 12:41:52.711"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${botaoProcura}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:52.711" endtime="20230105 12:41:52.899"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:53.524" level="INFO">Waited for Element with selector xpath=//a[.//text()='Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt'][1] at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:52.900" endtime="20230105 12:41:53.525"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:53.609" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-8.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:53.525" endtime="20230105 12:41:53.609"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>${itemRetornadoDaBusca}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:53.609" endtime="20230105 12:41:54.052"/>
+</kw>
+<kw name="Wait For Elements State" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<msg timestamp="20230105 12:41:54.900" level="INFO">Waited for Element with selector id=add-to-cart-button at state visible</msg>
+<status status="PASS" starttime="20230105 12:41:54.052" endtime="20230105 12:41:54.900"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20230105 12:41:55.010" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-9.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230105 12:41:54.900" endtime="20230105 12:41:55.010"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:52.450" endtime="20230105 12:41:55.010"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<kw name="Click" library="Browser">
+<arg>${adicionaAoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:55.010" endtime="20230105 12:41:55.494"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:55.010" endtime="20230105 12:41:55.494"/>
+</kw>
+<kw name="Verifica Carrinho com itens &quot;3&quot;" library="PaginaPrincipal" sourcename="Verifica Carrinho com itens &quot;${numero}&quot;">
+<kw name="Click" library="Browser">
+<arg>${botaoCarrinho}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:55.495" endtime="20230105 12:41:55.937"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>${subtotalTexto}</arg>
+<arg>contains</arg>
+<arg>${numero}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" starttime="20230105 12:41:55.937" endtime="20230105 12:41:56.483"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:55.495" endtime="20230105 12:41:56.483"/>
+</kw>
+<status status="PASS" starttime="20230105 12:41:45.389" endtime="20230105 12:41:56.483"/>
+</test>
+<status status="PASS" starttime="20230105 12:41:44.881" endtime="20230105 12:41:56.497"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="AdicionaProdutosNoCarrinho">AdicionaProdutosNoCarrinho</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
