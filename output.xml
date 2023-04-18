@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on darwin)" generated="20230326 21:01:46.555" rpa="false" schemaversion="3">
+<suite id="s1" name="AdicionaProdutosNoCarrinho" source="/Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon/Tests/AdicionaProdutosNoCarrinho.robot">
+<test id="s1-t1" name="Adiciona 3 itens no carrinho e verifica no checkout" line="6">
+<kw name="Acessa pagina" library="PaginaPrincipal">
+<kw name="New Page">
+<arg>${url}</arg>
+<msg timestamp="20230326 21:01:46.579" level="FAIL">No keyword with name 'New Page' found.</msg>
+<status status="FAIL" starttime="20230326 21:01:46.579" endtime="20230326 21:01:46.580"/>
+</kw>
+<status status="FAIL" starttime="20230326 21:01:46.577" endtime="20230326 21:01:46.581"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Fone de Ouvido Bluetooth JBL Tune 510BT Pure Bass Preto - JBLT510BTBLK&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<status status="NOT RUN" starttime="20230326 21:01:46.581" endtime="20230326 21:01:46.581"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<status status="NOT RUN" starttime="20230326 21:01:46.582" endtime="20230326 21:01:46.582"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Cafeteira Espresso Super Automática, Philips Walita, 220V&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<status status="NOT RUN" starttime="20230326 21:01:46.582" endtime="20230326 21:01:46.582"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<status status="NOT RUN" starttime="20230326 21:01:46.582" endtime="20230326 21:01:46.582"/>
+</kw>
+<kw name="Busca produto e adiciona ao carrinho &quot;Barbeador Elétrico Philips AquaTouch Series 1000 - S1121/41 Bivolt&quot;" library="PaginaPrincipal" sourcename="Busca produto e adiciona ao carrinho &quot;${nomeDoProduto}&quot;">
+<status status="NOT RUN" starttime="20230326 21:01:46.582" endtime="20230326 21:01:46.583"/>
+</kw>
+<kw name="Adiciona ao carrinho" library="PaginaPrincipal">
+<status status="NOT RUN" starttime="20230326 21:01:46.583" endtime="20230326 21:01:46.583"/>
+</kw>
+<kw name="Verifica Carrinho com itens &quot;3&quot;" library="PaginaPrincipal" sourcename="Verifica Carrinho com itens &quot;${numero}&quot;">
+<status status="NOT RUN" starttime="20230326 21:01:46.583" endtime="20230326 21:01:46.583"/>
+</kw>
+<status status="FAIL" starttime="20230326 21:01:46.576" endtime="20230326 21:01:46.584">No keyword with name 'New Page' found.</status>
+</test>
+<status status="FAIL" starttime="20230326 21:01:46.558" endtime="20230326 21:01:46.585"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="AdicionaProdutosNoCarrinho">AdicionaProdutosNoCarrinho</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230326 21:01:46.570" level="ERROR">Error in file '/Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon/Tests/AdicionaProdutosNoCarrinho.robot' on line 2: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src/robotframework_debug_adapter
+  /Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src/robotframework_ls/vendored
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python39.zip
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9/lib-dynload
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9/site-packages</msg>
+<msg timestamp="20230326 21:01:46.574" level="ERROR">Error in file '/Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon/Resources/PaginaPrincipal.robot' on line 2: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src/robotframework_debug_adapter
+  /Users/johnnykamigashima/Documents/Automacao/Robot Framework/Amazon/Amazon
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src
+  /Users/johnnykamigashima/.vscode/extensions/robocorp.robotframework-lsp-1.9.0/src/robotframework_ls/vendored
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python39.zip
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9/lib-dynload
+  /Users/Shared/robocorp/ht/cab1b28_b1f3c24_c597ca71/lib/python3.9/site-packages</msg>
+</errors>
+</robot>
